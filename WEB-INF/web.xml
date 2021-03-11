@@ -1,0 +1,19 @@
+<web-app>
+	<servlet>
+		<servlet-name>Sample</servlet-name>
+        <jsp-file>/WEB-INF/index.jsp</jsp-file>
+     </servlet>
+     <servlet-mapping>
+           <servlet-name>Sample</servlet-name>
+           <url-pattern>/sample</url-pattern>
+      </servlet-mapping>
+
+	  <servlet>
+		<servlet-name>Demo</servlet-name>
+        <jsp-file>/WEB-INF/classes/index.jsp</jsp-file>
+        </servlet>
+      <servlet-mapping>
+          <servlet-name>Demo</servlet-name>
+          <url-pattern>/demo</url-pattern>
+      </servlet-mapping>
+</web-app>
